@@ -12,3 +12,11 @@ function inspect(num){
     tag.style.opacity = 1.0;
     }
 }
+
+function home(){
+    location.replace("index.html")
+}
+
+function goTo(loc){
+    location.replace("beer.html")
+}
